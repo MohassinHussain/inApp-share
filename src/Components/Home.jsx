@@ -132,7 +132,7 @@ export default function Home({ user }) {
         <p>You are now logged in.</p>
       </div>
 
-      <div className="Nav right-10 rounded p-2 md:right-32 fixed bottom-20 bg-green-200">
+      <div className="Nav right-10 rounded p-2 md:right-14 fixed bottom-20 bg-green-400">
         <h1
           className="text-3xl cursor-pointer"
           onClick={async () => {
