@@ -9,7 +9,7 @@
 - **Home Page:** Displays a YouTube-like interface with a video list. Each video has a share option, allowing users to share it directly with friends.
 - **Video Sharing:** Authenticated users can share videos with others through the app. User1 can send a video, and User2 will receive it directly within the app.
 - **Video Sent and Received Sections:** Separate sections to track the videos you've shared and the videos you've received from other users.
-- **Friends (Mates) Section:** Users can manage their friend list by adding or editing friends' email addresses. This allows you to easily share videos with specific friends.
+- **Friends (Mates) Section (Receive button on Homescreen):** Users can manage their friend list by adding or editing friends' email addresses. This allows you to easily share videos with specific friends. (Received button)
 - **Gmail Authentication:** Secure login and registration using Gmail through Firebase Authentication.
 
 ## Tech Stack
@@ -28,9 +28,8 @@
 ## Project Structure
 
 - **Home:** Displays videos similar to YouTube. Each video has a share option.
-- **Video Sent:** A section that lists all the videos the user has shared.
+- **Video Sent:** A section that lists all the videos the user has shared. (in seperate Share option)
 - **Video Received:** A section that shows all the videos the user has received from others.
-- **Friends (Mates):** Allows users to add and manage friends by email for easy video sharing. Users can edit friend details as needed.
 
 ## How It Works
 
