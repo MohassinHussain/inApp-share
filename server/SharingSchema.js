@@ -1,6 +1,10 @@
 const mongoose = require('mongoose')
 
 const shareSchema = new mongoose.Schema({
+    senderEmail: {
+        type: String,
+        // required: true, 
+    },
     recipient: {
         type: String,
         // required: true, 
@@ -14,6 +18,10 @@ const shareSchema = new mongoose.Schema({
         // required: true, 
     },
     videoTitle: {
+        type: String,
+        // required: true, 
+    },
+    msgToReceiver: {
         type: String,
         // required: true, 
     },
